@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- Declaração que indica que o documento segue o padrão HTML5.
+Não é uma tag, mas sim uma instrução para o navegador. -->
+
+<html lang="en">
+  <!-- <html>: Tag raiz que envolve todo o conteúdo da página.
+       O atributo lang indica o idioma do documento. -->
+
+  <head>
+    <!-- <head>: Cabeçalho do documento, contém metadados e configurações da página. -->
+
+    <meta charset="UTF-8">
+    <!-- <meta>: Define metadados. Neste caso, a codificação de caracteres usada. -->
+
+    <title>Exemplo Completo de Tags HTML</title>
+    <!-- <title>: Define o título exibido na aba do navegador. -->
+
+    <base href="https://meusite.com/">
+    <!-- <base>: Define a URL base para links e recursos relativos. -->
+
+    <link rel="stylesheet" href="estilos.css">
+    <!-- <link>: Usado para vincular arquivos externos como CSS. -->
+
+    <script src="script.js"></script>
+    <!-- <script>: Usado para adicionar ou importar scripts JavaScript. -->
+
+    <style>
+      /* <style>: Usado para escrever estilos CSS diretamente no HTML */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- <body>: Corpo principal da página, onde fica o conteúdo visível. -->
+
+    <header>
+      <!-- <header>: Cabeçalho da página, geralmente contém logo e menu. -->
+      <h1>Meu Site Exemplo</h1>
+      <!-- <h1>: Título de nível mais importante da página. -->
+    </header>
+
+    <nav>
+      <!-- <nav>: Área de navegação da página. -->
+      <ul>
+        <!-- <ul>: Lista não ordenada (com marcadores). -->
+        <li>
+          <!-- <li>: Item de lista. -->
+          <a href="#inicio">Início</a>
+          <!-- <a>: Cria um link. O atributo href define o destino. -->
+        </li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- <main>: Define o conteúdo principal da página. -->
+
+      <section id="inicio">
+        <!-- <section>: Seção temática do conteúdo. -->
+        <h2>Seção de Introdução</h2>
+        <!-- <h2>: Subtítulo, hierarquia abaixo do h1. -->
+        <p>Bem-vindo! Aqui explicamos as principais tags do HTML.</p>
+        <!-- <p>: Representa um parágrafo de texto. -->
+
+        <!-- Exemplos de títulos h1 a h6 (adicionados para demonstrar cada nível) -->
+        <h1>h1 — Exemplo de título nível 1</h1> <!-- <h1>: título mais importante -->
+        <h2>h2 — Exemplo de título nível 2</h2> <!-- <h2>: subtítulo importante -->
+        <h3>h3 — Exemplo de título nível 3</h3> <!-- <h3>: subseção -->
+        <h4>h4 — Exemplo de título nível 4</h4> <!-- <h4>: subnível -->
+        <h5>h5 — Exemplo de título nível 5</h5> <!-- <h5>: nível ainda menor -->
+        <h6>h6 — Exemplo de título nível 6</h6> <!-- <h6>: menor nível de título -->
+      </section>
+
+      <article>
+        <!-- <article>: Conteúdo independente, como artigo ou post. -->
+        <h2>Artigo de Exemplo</h2>
+        <p>Este é um artigo independente que poderia estar em um blog.</p>
+      </article>
+
+      <section id="sobre">
+        <h2>Sobre o Projeto</h2>
+        <div>
+          <!-- <div>: Container genérico para organizar elementos. -->
+          <p>O <strong>HTML</strong> é a linguagem base da web.</p>
+          <!-- <strong>: Dá ênfase ao texto, geralmente em negrito. -->
+          <br>
+          <!-- <br>: Insere uma quebra de linha. -->
+          <img src="logo.png" alt="Logo do site">
+          <!-- <img>: Insere uma imagem. O atributo alt descreve a imagem. -->
+        </div>
+      </section>
+
+      <section id="listas">
+        <h2>Listas</h2>
+        <p>Podemos criar listas de itens com <code>ul</code> e <code>li</code>:</p>
+        <ul>
+          <!-- <ul>: Lista não ordenada. -->
+          <li>HTML</li>
+          <!-- <li>: Cada item da lista. -->
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <!-- <footer>: Rodapé da página. -->
+      <p>&copy; 2025 - Todos os direitos reservados.</p>
+      <!-- <p>: Também pode ser usado para pequenas informações no rodapé. -->
+    </footer>
+  </body>
+</html>
